@@ -1,0 +1,21 @@
+Benchmark                                                                                               (implementation)   Mode  Cnt          Score          Error   Units
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap                                                     FLYWEIGHT  thrpt   25    2208301.941 ±   238642.898   ops/s
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.alloc.rate                                      FLYWEIGHT  thrpt   25          0.001 ±        0.001  MB/sec
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.alloc.rate.norm                                 FLYWEIGHT  thrpt   25          0.002 ±        0.001    B/op
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.count                                           FLYWEIGHT  thrpt   25            ≈ 0                 counts
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap                                              PREALLOC_MUTABLE  thrpt   25    3840842.542 ±   423454.354   ops/s
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.alloc.rate                               PREALLOC_MUTABLE  thrpt   25          0.001 ±        0.001  MB/sec
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.alloc.rate.norm                          PREALLOC_MUTABLE  thrpt   25          0.001 ±        0.001    B/op
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.count                                    PREALLOC_MUTABLE  thrpt   25            ≈ 0                 counts
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap                                                   INCREMENTAL  thrpt   25   45754638.125 ±  4595567.556   ops/s
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.alloc.rate                                    INCREMENTAL  thrpt   25          0.001 ±        0.001  MB/sec
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.alloc.rate.norm                               INCREMENTAL  thrpt   25         ≈ 10⁻⁴                   B/op
+c.u.calculators.vwap.VwapCalculatorBenchmark.calculateVwap:·gc.count                                         INCREMENTAL  thrpt   25            ≈ 0                 counts
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate                                 FLYWEIGHT  thrpt   25   71645106.252 ±  7074418.904   ops/s
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate:·gc.alloc.rate                  FLYWEIGHT  thrpt   25          0.001 ±        0.001  MB/sec
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate:·gc.alloc.rate.norm             FLYWEIGHT  thrpt   25         ≈ 10⁻⁴                   B/op
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate:·gc.count                       FLYWEIGHT  thrpt   25            ≈ 0                 counts
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate                      PREALLOCATED_MUTABLE  thrpt   25  118600348.561 ± 13808870.596   ops/s
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate:·gc.alloc.rate       PREALLOCATED_MUTABLE  thrpt   25          0.001 ±        0.001  MB/sec
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate:·gc.alloc.rate.norm  PREALLOCATED_MUTABLE  thrpt   25         ≈ 10⁻⁴                   B/op
+c.u.marketdata.mutable.repository.MutableRepositoryBenchmark.applyMarketUpdate:·gc.count            PREALLOCATED_MUTABLE  thrpt   25            ≈ 0                 counts
